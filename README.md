@@ -37,7 +37,10 @@ poder ver el historial de versiones
 ```bash
 git log
 ```
-
+para ver detalles de un ID de un registro 
+```bash
+git show 9c6cf93919b00d9a0afe15de3a4f6ac6f8e99ffa
+```
 para subir a github
 
 ```bash
