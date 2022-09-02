@@ -47,7 +47,7 @@ para cambiar de Master a main
 ```bash
 git branch -M main
 ```
-algo con gid 
+algo con git 
 
 ```bash
 git remote -v
