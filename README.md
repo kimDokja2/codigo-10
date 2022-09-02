@@ -39,7 +39,11 @@ git log
 ```
 para ver detalles de un ID de un registro 
 ```bash
-git show 9c6cf93919b00d9a0afe15de3a4f6ac6f8e99ffa
+git show cec67d44590eb0cef2857d787bbd47acdfcd4805
+```
+para conectar remotamente el proyecto
+```bash
+git remote add origin https://github.com/kimDokja2/codigo-10
 ```
 para subir a github
 
@@ -50,14 +54,17 @@ para cambiar de Master a main
 ```bash
 git branch -M main
 ```
-algo con git 
+
+
+mostrar la url del repositorio después del nombre de dicho repositorio.
+Para ver a que url esta vinculado nuestro proyecto
 
 ```bash
 git remote -v
 ```
 
-para cambiar de otro init
+para cambiar el url 
 ```bash
-git remote set-url origin http:
+git remote set-url origin http://asjfkajs
 ```
 
