@@ -28,7 +28,7 @@ git add .
 ```
 crea el registro de los cambios realizados
 
-``bash
+```bash
 git commit -m "reseña del cambio"
 ```
 
