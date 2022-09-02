@@ -38,3 +38,23 @@ poder ver el historial de versiones
 git log
 ```
 
+para subir a github
+
+```bash
+git push origin main
+```
+para cambiar de Master a main
+```bash
+git branch -M main
+```
+algo con gid 
+
+```bash
+git remote -v
+```
+
+para cambiar de otro init
+```bash
+git remote set-url origin http:
+```
+
