@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    animation-name: primera-animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+h1 {
+    
+    font-size: 70px;
+    color: #ffc107;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(250, 188, 2), 1px 1px 0 rgb(245, 183, 0),
+      2px 2px 0 rgb(240, 178, 0), 3px 3px 0 rgb(235, 173, 0),
+      4px 4px 0 rgb(230, 168, 0), 5px 5px 0 rgb(225, 163, 0),
+      6px 6px 0 rgb(220, 158, 0), 7px 7px 0 rgb(215, 153, 0),
+      8px 8px 0 rgb(210, 148, 0), 9px 9px 0 rgb(205, 143, 0),
+      10px 10px 0 rgb(200, 138, 0), 11px 11px 10px rgba(0, 0, 0, 0.6),
+      11px 11px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.2);
+      animation-name: screen-saver ;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+  }
+
+@keyframes primera-animacion {
+ 
+   from{
+    font-size: 20px;
+    
+   }
+   to {
+    
+    font-size: 100px;
+    color: rgb(84, 47, 247);
+    
+    
+    
+    padding-top: 10%;
+    box-shadow: 10px 10px 50px 15px black ;
+    border-radius: 20px;
+   background-color: aquamarine;
+   
+    }
+
+}
+@keyframes screen-saver {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-right: 100%;
+      text-shadow: 0px 0px 0 rgb(0, 255, 47), 1px 1px 0 rgb(0, 255, 47),
+      2px 2px 0 rgb(0, 255, 47), 3px 3px 0 rgb(0, 255, 47),
+      4px 4px 0 rgb(0, 255, 47), 5px 5px 0 rgb(0, 255, 47),
+      6px 6px 0 rgb(0, 255, 47), 7px 7px 0 rgb(0, 255, 47),
+      8px 8px 0 rgb(0, 255, 47), 9px 9px 0 rgb(0, 255, 47),
+      10px 10px 0 rgb(0, 255, 47), 11px 11px 10px rgba(0, 0, 0, 0.6),
+      11px 11px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    /* porcentajes de fotogramas */
+    10% {
+      margin-top: 500px;
+    }
+  
+    30% {
+      margin-top: -500px;
+    }
+  
+    50% {
+      margin-top: 500px;
+      font-size: 78px;
+    color: #ff0707;
+    font-family: "Arial Black", Gadget, sans-serif;
+      text-shadow: 0px 0px 0 rgb(247,-1,0),
+                 0px 1px 0 rgb(238,-10,0),
+                 0px 2px 0 rgb(230,-18,0),
+                 0px 3px 0 rgb(221,-27,0),
+                 0px 4px 0 rgb(213,-35,0),
+                 0px 5px 0 rgb(205,-43,0),
+                 0px 6px 0 rgb(196,-52,0),
+                 0px 7px 0 rgb(188,-60,0),
+                 0px 8px 0 rgb(179,-69,0),
+                 0px 9px 0 rgb(171,-77,0),
+                 0px 10px  0 rgb(163,-85,0),
+                 0px 11px 10px rgba(0,0,0,0),
+                 0px 11px 1px rgba(0,0,0,0.5),
+                 0px 0px 10px rgba(0,0,0,.2);
+ }
+
+    }
+  
+    70% {
+      margin-top: -500px;
+    }
+  
+    90% {
+      margin-top: 500px;
+    }
+  
+    100% {
+      margin-top: 0;
+    }
+  }
