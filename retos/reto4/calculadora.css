@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.theme-blue {
+    
+    --bg-main: hsl(222, 26%, 31%);
+    --bg-teclado: hsl(223, 31%, 20%);
+    --bg-pantalla: hsl(224, 36%, 15%);
+
+    --bg-color-tecla-grupo2:hsl(225, 69%, 76%);
+    --sombra-color-tecla-grupo2:hsl(224, 28%, 35%);
+    --bg-color-tecla-grupo3:hsl(6, 63%, 50%);
+    --sombra-color-tecla-grupo3:hsl(6, 70%, 34%);
+    --bg-color-tecla-grupo1:hsl(30, 25%, 89%);
+    --sombra-color-tecla-grupo1:hsl(28, 16%, 65%);
+
+    
+    --color-texto-grupo1:hsl(221, 14%, 31%);
+    --color-texto-grupo2:hsl(0, 0, 100%);
+    --color-texto-grupo3:hsl(0, 0, 100%);
+    --color-texto-grupo4:hsl(0, 0, 100%);
+}
+  
+.theme-white {
+    --bg-main: hsl(0, 0%, 90%);
+    --bg-teclado: hsl(0, 5%, 81%);
+    --bg-pantalla: hsl(0, 0%, 93%);
+
+    --bg-color-tecla-grupo2:hsl(185, 42%, 37%);
+    --sombra-color-tecla-grupo2:hsl(185, 58%, 25%);
+    --bg-color-tecla-grupo3:hsl(25, 98%, 40%);
+    --sombra-color-tecla-grupo3:hsl(25, 99%, 27%);
+    --bg-color-tecla-grupo1:hsl(45, 7%, 89%);
+    --sombra-color-tecla-grupo1:hsl(35, 11%, 61%);
+    
+    --color-texto-grupo1:hsl(60, 10%, 19%);
+    --color-texto-grupo2:hsl(0, 0, 100%);
+    --color-texto-grupo3:hsl(0, 0, 100%);
+    --color-texto-grupo4:hsl(60, 10%, 19%);
+}
+  
+.theme-purple {
+    --bg-main: hsl(268, 75%, 9%);
+    --bg-teclado: hsl(268, 71%, 12%);
+    --bg-pantalla: hsl(268, 71%, 12%);
+
+    --bg-color-tecla-grupo2:hsl(281, 89%, 26%);
+    --sombra-color-tecla-grupo2:hsl(285, 91%, 52%);
+    --bg-color-tecla-grupo3:hsl(176, 100%, 44%);
+    --sombra-color-tecla-grupo3:hsl(177, 92%, 70%);
+    --bg-color-tecla-grupo1:hsl(268, 47%, 21%);
+    --sombra-color-tecla-grupo1:hsl(290, 70%, 36%);
+
+    
+    --color-texto-grupo1:hsl(52, 100%, 62%);
+    --color-texto-grupo2:hsl(0, 0, 100%);
+    --color-texto-grupo3:hsl(198, 20%, 13%);
+    --color-texto-grupo4:hsl(52, 100%, 62%);
+    
+}
+  
+body {
+    background-color: var(--bg-main);
+    font-family: 'League Spartan',sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.container{
+display: flex;
+flex-direction: column;
+padding: 10px;
+height: 500px;
+align-items: center;
+justify-content: space-evenly;
+width:330px;;
+background-color: transparent;
+color: #fff;
+font-weight: 700;
+box-shadow: 1px 0px 28px 3px rgba(0,0,0,0.44);
+-webkit-box-shadow: 1px 0px 28px 3px rgba(0,0,0,0.44);
+-moz-box-shadow: 1px 0px 28px 3px rgba(0,0,0,0.44);
+
+border-radius: 15px;
+border: 3px solid #fff;
+}
+
+.grupo-1 {
+    background-color: var(--bg-color-tecla-grupo1);
+    box-shadow: 0 3px 0 0 var(--sombra-color-tecla-grupo1);
+    color: var(--color-texto-grupo1);
+}
+.grupo-2{
+    background-color: var(--bg-color-tecla-grupo2);
+    box-shadow: 0 3px 0 0 var(--sombra-color-tecla-grupo2);
+    color: var(--color-texto-grupo2);
+}
+.grupo-3{
+    background-color: var(--bg-color-tecla-grupo3);
+    box-shadow: 0 3px 0 0 var(--sombra-color-tecla-grupo3);
+    color: var(--color-texto-grupo3);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    color: var(--color-texto-grupo4);
+    height: 50px;
+}
+.menu-tema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    font-size: 10px;
+    height: 100%;
+}
+.contenedor-temas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.temas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 8px;
+}
+.opciones{
+    background-color: var(--bg-teclado);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.pantalla{
+    width: 300px;
+    background-color: var(--bg-pantalla);
+    color: var(--color-texto-grupo4);
+    border-radius: 10px;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.teclado{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-teclado);
+    height: 300px;
+    border-radius: 10px;
+    margin:10px 0;
+    padding: 20px;
+}
+.teclado div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+}
+.teclado button{
+    width: 20%;
+    height: 68%;
+}
+.teclado .boton-RESET, .teclado .boton-igual {
+    width: 47%;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    font-family: 'League Spartan',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+    
+}
+
+input[type="radio"]::after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--bg-teclado);
+    position: relative;
+    top: 3px;
+    right: 1.5px;
+    visibility: visible;
+}
+input[type="radio"]:checked:after{
+    background-color: var(--bg-color-tecla-grupo3);
+}
+
+button:hover{
+    filter:saturate(7);
+
+}
+button:active{
+    transform: translateY(2px);
+}
