@@ -207,7 +207,7 @@ input[type="radio"]::after{
     content: "";
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    
     display: inline-block;
     background-color: var(--bg-teclado);
     position: relative;
@@ -217,6 +217,7 @@ input[type="radio"]::after{
 }
 input[type="radio"]:checked:after{
     background-color: var(--bg-color-tecla-grupo3);
+    border-radius: 50%;
 
 }
 
