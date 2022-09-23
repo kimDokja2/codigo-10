@@ -211,8 +211,8 @@ input[type="radio"]::after{
     display: inline-block;
     background-color: var(--bg-teclado);
     position: relative;
-    top: 3px;
-    right: 2px;
+    top: 2px;
+    right: 1px;
     visibility: visible;
 }
 input[type="radio"]:checked:after{
