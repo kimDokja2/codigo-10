@@ -205,18 +205,19 @@ input{
 
 input[type="radio"]::after{
     content: "";
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     display: inline-block;
     background-color: var(--bg-teclado);
     position: relative;
     top: 3px;
-    right: 1.5px;
+    right: 2px;
     visibility: visible;
 }
 input[type="radio"]:checked:after{
     background-color: var(--bg-color-tecla-grupo3);
+
 }
 
 button:hover{
