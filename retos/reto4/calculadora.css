@@ -141,6 +141,7 @@ border: 3px solid #fff;
 .opciones{
     background-color: var(--bg-teclado);
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 22px;
