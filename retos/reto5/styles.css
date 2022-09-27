@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 370;
+    background-color: white;
+}
+
+h1{
+    font-weight: 800;
+}
